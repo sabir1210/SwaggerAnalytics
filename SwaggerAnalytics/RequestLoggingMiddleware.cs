@@ -52,7 +52,6 @@ namespace SwaggerAnalytics
         public static readonly ConcurrentDictionary<string, UserActivityInfo> ActiveUsers = new();
     }
 
-
     public class UserActivityInfo
     {
         public DateTime LastActivity { get; set; }
